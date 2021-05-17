@@ -17,6 +17,6 @@ In Frontend repository execute the commands to initialize the project
 
 To run the tests on backend, run the command
 
-- npm run test
+- npm test
 
 
