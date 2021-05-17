@@ -6,7 +6,7 @@ In each repository it is necessary install the dependencies
 
 - npm i
 
-In backend repository execute the commands to initialize the project
+In backend repository execute the command to initialize the project
 
 - node src/db/server.js
 
