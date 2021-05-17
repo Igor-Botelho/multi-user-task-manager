@@ -1,0 +1,28 @@
+{
+  "name": "multi-user-task-manager",
+  "version": "1.0.0",
+  "description": "\"Multi-user task manager web application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --coverage ",
+    "start-server": "node test/seed.js no src/db/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-Botelho/multi-user-task-manager.git"
+  },
+  "author": "Igor Botelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-Botelho/multi-user-task-manager/issues"
+  },
+  "homepage": "https://github.com/Igor-Botelho/multi-user-task-manager#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.9"
+  }
+}
