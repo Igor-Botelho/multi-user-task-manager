@@ -1,0 +1,118 @@
+.todo-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 62% 38%;
+  background-color: white;
+}
+
+.navbar-index {
+  position: relative;
+  z-index: 99999;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding-top: 2rem;
+}
+
+.todo-cards {
+  padding-bottom: 6rem;
+}
+
+.todo-delete-button,
+.todo-edit-button {
+  margin-left: 0.4rem;
+  width: 95%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.5rem 0.5rem;
+  color: #195b91;
+  box-shadow: inset 0 0 4px #195b91;
+}
+
+.page-container {
+  background-color: white;
+  max-height: max-content;
+}
+
+.todo-new-project {
+  position: fixed;
+  padding-top: 6em;
+  left: 75%;
+  top: 0%;
+  transform: translateX(-25%);
+  z-index: 9;
+}
+
+.todo-edit-text-on {
+  visibility: visible;
+}
+
+.todo-edit-text-off {
+  visibility: hidden;
+}
+.todo-confirm {
+  position: fixed;
+  background-color: white;
+  text-align: right;
+  margin-top: 20em;
+  left: 75%;
+  top: 0%;
+  transform: translateX(-25%);
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+}
+
+.todo-edit-button-cancel,
+.todo-edit-button-confirm {
+  margin-top: 1rem;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.form-edit {
+  border: none;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  width: 20rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  outline: none;
+}
+
+.todo-empty {
+  font-size: 2rem;
+  padding-bottom: 7rem;
+}
+
+@media screen and (max-width: 900px) {
+  .todo-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-container {
+    grid-template-columns: 100%;
+  }
+
+  .todo-delete-button,
+  .todo-edit-button {
+    margin-left: 0.6rem;
+  }
+
+  .todo-new-project {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .todo-confirm {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20rem;
+  }
+}

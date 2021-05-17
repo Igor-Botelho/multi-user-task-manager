@@ -1,0 +1,60 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #195b91;
+  padding-bottom: 1rem;
+  z-index: 99999;
+}
+
+.navbar-brand,
+.nav-user {
+  display: flex;
+}
+
+.navbar-title,
+.navbar-user {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  color: white;
+}
+
+.navbar-logo {
+  width: 2rem;
+  height: 2rem;
+  background: gold;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transform: rotate(-45deg);
+  animation: circle 3s infinite;
+  clip-path: circle(75%);
+}
+
+.navbar-user {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding-right: 1rem;
+}
+
+.navbar-incon-singUp {
+  margin-top: 1.5rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.navbar-incon-singUp:hover {
+  cursor: pointer;
+}
+
+@keyframes circle {
+  0% {
+    clip-path: circle(75%);
+  }
+  50% {
+    clip-path: circle(25%);
+  }
+  100% {
+    clip-path: circle(75%);
+  }
+}

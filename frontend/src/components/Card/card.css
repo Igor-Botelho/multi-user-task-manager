@@ -1,0 +1,48 @@
+.card-container {
+  display: grid;
+  background-color: white;
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  border-radius: 3px;
+  border: 0.01rem solid rgb(161, 161, 161);
+  box-shadow: 0 0 1em rgb(157, 157, 158);
+  color: rgb(85, 85, 85);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.2rem;
+}
+.card-label,
+input-card {
+  margin: 0;
+  padding: 0;
+}
+
+.card-status {
+  text-align: center;
+  padding-top: 0.1rem;
+}
+
+.card-header {
+  background-color: #195b91;
+  border-radius: 1px;
+  text-align: center;
+  height: 2rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.1rem;
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+}
